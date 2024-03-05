@@ -1,7 +1,33 @@
-.test{
+.layout{
     color:black;
     border:1px solid cornflowerblue ;
+
 }
-.icon{
-    color: cornflowerblue;
+.label2{
+    margin-left: 80px;
 }
+.labels{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+   
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    opacity: 0.6;
+    filter:invert(0.8);
+  }
+
+ .bg{
+background-image: url(./img/calendar-icon.svg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+
+
+}
+
+ 

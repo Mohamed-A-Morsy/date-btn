@@ -17,20 +17,21 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="btn-group btn-group-toggle m-5" data-toggle="buttons">
-        <label class="btn test active">
-          <input type="radio" name="options" id="option1" checked>
-          
-          <i class="fa-solid fa-calendar-days icon"></i>
-          
-           5 مايو
-        </label>
-        <label class="btn test">
-          <input type="radio" name="options" id="option2">
-          
-          <span><i class="fa-solid fa-calendar-days icon"></i>
 
-            10 مايو</span>
+
+    <div class="labels mx-2">
+      <label  for="fDate">First Date</label>
+      <label class="label2" for="lDate">Last Date</label>
+
+    </div>
+    <div class="btn-group btn-group-toggle " data-toggle="buttons">
+        <label class="btn layout active hello">
+          <input class="bg" type="date"  name="options" id="fDate" checked>
+        </label>
+        <label class="btn layout ">
+          <input class="bg" type="date" name="options" id="lDate">
+          
+          
         </label>
        
       </div>
