@@ -1,33 +1,50 @@
-.layout{
-    color:black;
-    border:1px solid cornflowerblue ;
+.layout {
+    color: black;
+    border: 1px solid cornflowerblue;
 
 }
-.label2{
+
+.label2 {
     margin-left: 80px;
 }
-.labels{
+
+.labels {
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
-   
     cursor: pointer;
     border-radius: 4px;
-    margin-right: 2px;
-    opacity: 0.6;
-    filter:invert(0.8);
-  }
-
- .bg{
-background-image: url(./img/calendar-icon.svg); 
+    background-image: url(./img/calendar-icon.svg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-
-
 
 }
 
- 
+.bg {
+    border: none;
+}
+
+.bg:focus-visible {
+    outline: none;
+}
+
+.btn.layout.focus {
+    box-shadow: none !important;
+}
+
+.btn-group>.btn:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px ;
+    border-color: #1eb2b4;
+}
+
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: #1eb2b4;
+}
